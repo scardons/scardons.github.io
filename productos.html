@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&family=Montserrat:wght@100;300;400;500;700&display=swap"
+        el="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg BGC">
+        <div class="container-fluid ">
+            <img class="navbar-brand" id="logo" src="/assets/img/papeleria.png" alt="logo" style="margin-right: 10rem;">
+            <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="/assets/img/menu_mobile.png" alt="menu-icon">
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav col-8">
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="cuenta.html">Cuenta</a>
+                    </li>
+                </ul>
+                <div class="mb-auto">
+                    <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="/assets/img/lupa.png" alt="lupa">
+                    </button>
+                    <form class="dropdown-menu p-2 BGC" id="search">
+                        <div class="form-floating mb-3">
+                            <input type="search" class="form-control" id="floatingInput" placeholder="search">
+                            <label for="floatingInput">Ingrese producto</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
+                    </form>
+                    <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/carrito.png"
+                            alt="carrito"></button>
+                    <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img src="/assets/img/cel.png"
+                            alt="mobile"></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <h1>Mi Tienda de Productos</h1>
+
+<!-- Aquí comienza la sección de productos -->
+<div class="productos">
+    
+
+    <!-- Puedes seguir añadiendo más productos aquí -->
+    <section id="novedades" class="novedades py-5 px-2">
+        <div class="text mb-4">
+            <h2 class="pri1 fw-700 text-center">novedades</h2>
+            <h5 class="low sec1 fw-700 text-center"><span>conoce</span> nuestros nuevos productos y servicios.</h5>
+        </div>
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner carousel-product-inner">
+                <div class="carousel-item carousel-product-item active">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/laser2b.png" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>Impresiones</span> a blanco y negro</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$600</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+</div>
+
+<!-- Aquí termina la sección de productos -->
+
+</body>
+</html>
